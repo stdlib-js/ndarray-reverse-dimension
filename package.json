@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-reverse-dimension",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Return a read-only view of an input ndarray in which the order of elements along a specified dimension is reversed.",
   "license": "Apache-2.0",
   "author": {
@@ -46,7 +46,7 @@
   },
   "devDependencies": {
     "@stdlib/array-zero-to": "^0.2.2",
-    "@stdlib/ndarray-base-assert-is-equal-data-type": "github:stdlib-js/ndarray-base-assert-is-equal-data-type#main",
+    "@stdlib/ndarray-base-assert-is-equal-data-type": "^0.1.0",
     "@stdlib/ndarray-base-assert-is-read-only": "^0.2.2",
     "@stdlib/ndarray-ctor": "^0.2.2",
     "@stdlib/ndarray-data-buffer": "^0.2.2",
