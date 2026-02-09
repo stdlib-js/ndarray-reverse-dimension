@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import reverseDimension from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-reverse-dimension@deno/mod.js';
+import reverseDimension from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-reverse-dimension@v0.1.1-deno/mod.js';
 ```
 
 #### reverseDimension( x, dim )
@@ -106,7 +106,7 @@ The function accepts the following arguments:
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-uniform@deno/mod.js';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@deno/mod.js';
-import reverseDimension from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-reverse-dimension@deno/mod.js';
+import reverseDimension from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-reverse-dimension@v0.1.1-deno/mod.js';
 
 var x = uniform( [ 3, 3, 3 ], -10.0, 10.0 );
 console.log( ndarray2array( x ) );
